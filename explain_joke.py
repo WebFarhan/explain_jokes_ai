@@ -14,7 +14,7 @@ client = OpenAI(
 )
 
 # Streamlit app
-st.title("Joke Explainer")
+st.title("Joke Decipher")
 
 # Text box for user to input a joke
 joke_input = st.text_area("Enter your joke here:")
